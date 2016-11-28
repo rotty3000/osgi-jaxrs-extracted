@@ -5,13 +5,16 @@
 >
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.apache.aries</groupId>
+        <groupId>org.apache.aries.jax.rs</groupId>
         <artifactId>org.apache.aries.jax.rs</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
+
     <artifactId>org.apache.aries.jax.rs.whiteboard</artifactId>
-    <packaging>jar</packaging>
     <description>Apache Aries JAX-RS Whiteboard</description>
+    <name>Apache Aries JAX-RS Whiteboard</name>
+    <version>0.0.1-SNAPSHOT</version>
+
     <dependencies>
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -67,6 +70,11 @@
             <groupId>org.osgi</groupId>
             <artifactId>org.osgi.compendium</artifactId>
             <version>5.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.aries.component-dsl</groupId>
+            <artifactId>component-dsl</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
 		<dependency>
             <groupId>org.apache.felix</groupId>

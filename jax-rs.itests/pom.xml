@@ -6,12 +6,15 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.apache.aries</groupId>
+		<groupId>org.apache.aries.jax.rs</groupId>
 		<artifactId>org.apache.aries.jax.rs</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>org.apache.aries.jax.rs.itests</artifactId>
+	<description>Apache Aries JAX-RS Integration Tests</description>
+	<name>Apache Aries JAX-RS Integration Tests</name>
+	<version>0.0.1-SNAPSHOT</version>
 
 	<dependencies>
         <dependency>
